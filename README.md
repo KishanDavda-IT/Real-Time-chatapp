@@ -79,3 +79,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📝 License
 
 This project is licensed under the MIT License.
+
+
+## 📝 Note
+
+This project is still under development so there can be errors
