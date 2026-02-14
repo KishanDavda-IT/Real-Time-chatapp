@@ -1,0 +1,17 @@
+{
+  "name": "real-time-chatapp-root",
+  "version": "1.0.0",
+  "description": "Root for Real-time Chat App",
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run start:server\" \"npm run dev:client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
