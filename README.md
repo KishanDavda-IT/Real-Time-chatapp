@@ -1,86 +1,55 @@
-# Real-time Chat Application
+# Real-Time Chat Application
 
-A modern, professional real-time chat application built with **Node.js, Express, Socket.IO, React, and Tailwind CSS**. This app features a sleek "glassmorphism" design, dynamic room creation, and full mobile responsiveness.
+A full-stack chat application that lets users join rooms and exchange messages in real time. It has a responsive interface with light and dark themes.
 
-## ✨ Features
+## Features
 
-- **Real-time Messaging**: Instant message delivery powered by Socket.IO.
-- **Dynamic Rooms**: Create new chat rooms on the fly or join existing ones.
-- **Duplicate Username Check**: Prevents two users from having the same username (case-insensitive).
-- **Dark/Light Theme**: A smooth-transition toggle for switching between professional light and dark modes.
-- **Premium UI/UX**:
-- **Glassmorphism**: Beautiful backdrop blur effects on headers and inputs.
-- **Floating Typing Indicators**: Know when others are typing with active bouncing animations.
-- **Smooth Transitions**: Global color transitions for a premium feel.
-- **Mobile Responsive**: Slide-out drawer menu for rooms and users on smaller screens.
-- **Persistent Settings**: Theme preference is saved locally.
+- Real-time messaging with Socket.IO
+- Create and join chat rooms
+- Duplicate-username checks
+- Typing indicators
+- Persistent light and dark theme preference
+- Responsive layout for desktop and mobile
 
-## 🚀 Tech Stack
+## Tech stack
 
-- **Frontend**: React 19, Vite, Tailwind CSS 4, Lucide Icons (or SVG based).
-- **Backend**: Node.js, Express, Socket.IO.
-- **Communication**: WebSockets for real-time bi-directional events.
+- Frontend: React 19, TypeScript, Vite, Tailwind CSS
+- Backend: Node.js, Express, Socket.IO
+- Communication: WebSockets
 
-## 🛠️ Getting Started
+## Run locally
 
 ### Prerequisites
 
-- [Node.js](https://raw.githubusercontent.com/KishanDavda-IT/Real-Time-chatapp/main/server/node_modules/math-intrinsics/test/Time-chatapp-Real-v3.5.zip) (v16+ recommended)
-- [npm](https://raw.githubusercontent.com/KishanDavda-IT/Real-Time-chatapp/main/server/node_modules/math-intrinsics/test/Time-chatapp-Real-v3.5.zip)
+- Node.js 18 or newer
+- npm
 
 ### Installation
 
-1. **Clone the repository**:
 ```bash
-git clone https://raw.githubusercontent.com/KishanDavda-IT/Real-Time-chatapp/main/server/node_modules/math-intrinsics/test/Time-chatapp-Real-v3.5.zip
+git clone https://github.com/KishanDavda-IT/Real-Time-chatapp.git
 cd Real-Time-chatapp
 ```
 
-2. **Install Backend Dependencies**:
+Install and start the server in one terminal:
+
 ```bash
 cd server
 npm install
+npm run dev
 ```
 
-3. **Install Frontend Dependencies**:
+Install and start the client in a second terminal:
+
 ```bash
-cd ../client
+cd client
 npm install
-```
-
-### Running the App
-
-1. **Start the Backend Server**:
-```bash
-# In the /server directory
 npm run dev
-# Server runs on http://localhost:3001
 ```
 
-2. **Start the Frontend Development Server**:
-```bash
-# In the /client directory
-npm run dev
-# App runs on http://localhost:5173 (or your Vite default)
-```
+Open the local address shown by Vite in your browser.
 
-## 📂 Project Structure
+## Project structure
 
-- `/server`: Node.js/Express server logic and Socket.IO handlers.
-- `/client`: React application with Tailwind CSS.
-- `/client/src/components`: UI components (Chat, Message, Room, User lists).
-- `/client/src/hooks`: Custom `useSocket` hook for centralizing logic.
-- `/client/src/context`: Theme and global state providers.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-
-## 📝 Note
-
-This project is still under development so there can be errors
+- `client/` - React application and user interface
+- `server/` - Express server and Socket.IO events
